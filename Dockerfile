@@ -1,10 +1,10 @@
 ARG BASE=alpine:3.9
 FROM ${BASE}
 
-LABEL maintainer="Brian J. Cardiff <bcardiff@gmail.com>"
+LABEL maintainer="Marco Griep <mail@marcogriep.de>"
 
 ARG RCLONE_VERSION=current
-ARG ARCH=amd64
+ARG ARCH=arm64
 ENV SYNC_SRC=
 ENV SYNC_DEST=
 ENV SYNC_OPTS=-v
